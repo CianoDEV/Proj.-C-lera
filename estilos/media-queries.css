@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/*Configuração Media queries*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /*tablet*/
+    menu > ul > li > a{
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        font-size: 16px;  
+        box-shadow: -1.9px 1.6px 5px rgb(36, 36, 36);
+        margin: 8px;
+
+    }
+    
+    menu > ul > li > a:hover{
+        box-shadow: -2.9px 2.9px 4px rgb(23, 23, 23);
+        border-radius: 3px;
+        transition-duration: 0.2s;
+    
+    }
+
+    header{
+        background-image: url("../imagens/fundo-colera.jpg");
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        padding-top: 50px;
+        width: 100%;
+    
+    }
+
+    header > h2{
+        font-size: 45px;
+        color: white;
+        margin-bottom: 50px;
+        margin-left: 25px;
+        margin-top: 30px;
+
+    }
+
+    header > p{
+        font-size: 15px;
+        color: white;
+        width: 700px;
+        line-height: 1.5em;
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    main{
+        width: 850px;
+     
+     }
+     
+     main p{
+         line-height: 1.8em;
+         text-indent: 1em;
+         text-align: justify;
+     
+     }
+
+     img#img01{
+        border-radius: 8px;
+        box-shadow: -2px 2px 5px rgb(61, 61, 61);
+
+     }
+
+     img#img03{
+        border-radius: 8px;
+        box-shadow: -2px 2px 5px rgb(61, 61, 61);
+
+     }
+
+}
+
+@media screen and (min-width: 992px){ /*Tv*/
+    menu > ul > li > a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: 16px;  
+        box-shadow: -1.9px 1.6px 5px rgb(36, 36, 36);
+        margin: 10px;
+
+    }
+    
+    menu > ul > li > a:hover{
+        box-shadow: -3px 3px 8px rgb(23, 23, 23);
+        border-radius: 3px;
+        transition-duration: 0.2s;
+    
+    }
+
+
+    header{
+        background-image: url("../imagens/fundo-colera.jpg");
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        padding-top: 50px;
+        width: 100%;
+    
+
+    }
+
+    header > h2{
+        font-size: 50px;
+        color: white;
+        margin-bottom: 50px;
+        margin-left: 35px;
+        margin-top: 35px;
+
+    }
+
+    header > p{
+        font-size: 15px;
+        color: white;
+        width: 1000px;
+        line-height: 1.5em;
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    main{
+        width: 1050px;
+     
+     }
+     
+     main p{
+         line-height: 1.8em;
+         text-indent: 1em;
+         text-align: justify;
+     
+     }
+
+     footer ul{
+        list-style-position: inside;
+        columns: 2;
+        padding: 5px;
+        width: 530px;
+        margin: auto;
+    
+    }
+
+    img#img01{
+        border-radius: 8px;
+        box-shadow: -2px 2px 5px rgb(61, 61, 61);
+
+     }
+
+     img#img03{
+        border-radius: 8px;
+        box-shadow: -2px 2px 5px rgb(61, 61, 61);
+
+     }
+
+}
